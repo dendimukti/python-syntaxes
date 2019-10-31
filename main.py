@@ -1,6 +1,9 @@
 """
 menunjukkan semua syntaxes python
 """
+from geometry.persegipanjang import hitung_luas_persegipanjang
+from geometry.segitiga import hitung_luas_segitiga
+
 print("Hello World")
 
 # menghitung luas segi3
@@ -32,9 +35,7 @@ for i in range(0, 10):
 # luas_segitiga = alas * tinggi
 # print(luas_segitiga)
 
-def hitung_luas_segitiga(title, alas, tinggi):
-    print(title)
-    return (alas * tinggi) / 2
-
 print(hitung_luas_segitiga("Segitiga 1", 5, 15))
 print(hitung_luas_segitiga("Segitiga 2", 3, 6))
+print(hitung_luas_persegipanjang("Persegi Pjg 1", 10, 4))
+print(hitung_luas_persegipanjang("Persegi Pjg 1", 11, 3))
